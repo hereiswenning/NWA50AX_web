@@ -1,10 +1,10 @@
 ＠font-face{
-    font-family: 'GalanoGrotesque-Regular';
-    src: url('font/GalanoGrotesque-Regular.otf')
+    font-family: "Galano-Grotesque-Regular";
+    src: url("font/GalanoGrotesque-Regular.otf");
 }
 ＠font-face{
-    font-family: 'GalanoGrotesque-SemiBold';
-    src: url('font/GalanoGrotesque-SemiBold.otf')
+    font-family: "Galano-Grotesque-SemiBold";
+    src: url("font/GalanoGrotesque-SemiBold.otf");
 }
 
 h1{
@@ -45,10 +45,6 @@ p{
 .body{
     font-size: 8px;
     font-family: 'GalanoGrotesque-Regular';
-}
-
-.row{
-    padding-left: 0px;
 }
 
 .padding-left-0{
