@@ -1,8 +1,8 @@
-＠font-face{
+@font-face{
     font-family: "Galano-Grotesque-Regular";
     src: url("../font/GalanoGrotesque-Regular.otf");
 }
-＠font-face{
+@font-face{
     font-family: "Galano-Grotesque-SemiBold";
     src: url("../font/GalanoGrotesque-SemiBold.otf");
 }
