@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8" height="6.095" viewBox="0 0 8 6.095">
+  <g id="mail-icon" transform="translate(-137.889 -493.756)">
+    <g id="Group_2070" data-name="Group 2070" transform="translate(137.889 493.756)">
+      <line id="Line_57878" data-name="Line 57878" x1="1.957" y2="2.984" transform="translate(0.662 2.501)" fill="none" stroke="#130b0b" stroke-linejoin="round" stroke-width="0.65"/>
+      <line id="Line_57879" data-name="Line 57879" x2="1.958" y2="2.982" transform="translate(5.38 2.501)" fill="none" stroke="#130b0b" stroke-linejoin="round" stroke-width="0.65"/>
+      <g id="Rectangle_693" data-name="Rectangle 693" fill="none" stroke="#130b0b" stroke-miterlimit="10" stroke-width="0.65">
+        <rect width="8" height="6.095" rx="1.02" stroke="none"/>
+        <rect x="0.325" y="0.325" width="7.35" height="5.445" rx="0.695" fill="none"/>
+      </g>
+      <path id="Path_134309" data-name="Path 134309" d="M138.309,494.168l2.941,2.79a.761.761,0,0,0,1.061-.015l2.8-2.775" transform="translate(-137.786 -493.655)" fill="none" stroke="#130b0b" stroke-miterlimit="10" stroke-width="0.65"/>
+    </g>
+  </g>
+</svg>
