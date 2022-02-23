@@ -74,6 +74,7 @@ ul{
     width: 32%;
     padding: 6px 14px 6px 14px;
     color: #FFFFFF;
+    border-radius: 0 10px 10px 0;
 }
 .label-black{
     background-color: #000000;
