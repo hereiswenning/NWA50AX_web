@@ -51,37 +51,38 @@
 
         <!-- Language selection -->
         <h2 class="col-xl-12 offset-1 mt-3 mb-4">Language</h2>
-        <div class="language row row-cols-3 offset-1 mb-2">
-            <div class="col-sm-1 padding-left-0"><a href="#">ENGLISH</a></div>
-            <div class="col-sm-1"><a href="#">DEUTSCH</a></div>
-            <div class="col-sm-1"><a href="#">ESPAÑOL</a></div>
+        <div class="language row row-cols-3 offset-1 mb-3">
+            <div class="col-sm-1 padding-left-0"><button id="switchlanguageEN" class="btn">ENGLISH</button></div>
+            <div class="col-sm-1"><button id="switchlanguage" class="btn">DEUTSCH</button></div>
+            <div class="col-sm-1"><button class="btn">ESPAÑOL</button></div>
         </div>
         <div class="language row row-cols-3 offset-1 mb-3">
-            <div class="col-sm-1 padding-left-0"><a href="#">FRANÇAIS</a></div>
-            <div class="col-sm-1"><a href="#">ITALIANO</a></div>
-            <div class="col-sm-1"><a href="#">SVENSKA</a></div>
+            <div class="col-sm-1 padding-left-0"><button class="btn">FRANÇAIS</button></div>
+            <div class="col-sm-1"><button class="btn">ITALIANO</button></div>
+            <div class="col-sm-1"><button class="btn">SVENSKA</button></div>
         </div>
         <div class="language row row-cols-3 offset-1 mb-3">
-            <div class="col-sm-1 padding-left-0"><a href="#">ROMÂNĂ</a></div>
-            <div class="col-sm-1"><a href="#">БЪЛГАРСКИ</a></div>
-            <div class="col-sm-1"><a href="#">РУССКИЙ</a></div>
+            <div class="col-sm-1 padding-left-0"><button class="btn">ROMÂNĂ</button></div>
+            <div class="col-sm-1"><button class="btn">БЪЛГАРСКИ</button></div>
+            <div class="col-sm-1"><button class="btn">РУССКИЙ</button></div>
         </div>
         <div class="language row row-cols-3 offset-1 mb-3">
-            <div class="col-sm-1 padding-left-0"><a href="#">УКРАЇНСЬКА</a></div>
-            <div class="col-sm-1"><a href="#">ČEŠTINA</a></div>
-            <div class="col-sm-1"><a href="#">MAGYAR</a></div>
+            <div class="col-sm-1 padding-left-0"><button class="btn">УКРАЇНСЬКА</button></div>
+            <div class="col-sm-1"><button class="btn">ČEŠTINA</button></div>
+            <div class="col-sm-1"><button class="btn">MAGYAR</button></div>
         </div>
         <div class="language row row-cols-3 offset-1 mb-3">
-            <div class="col-sm-1 padding-left-0"><a href="#">POLSKI</a></div>
-            <div class="col-sm-1"><a href="#">SLOVENŠČINA</a></div>
-            <div class="col-sm-1"><a href="#">简体中文</a></div>
+            <div class="col-sm-1 padding-left-0"><button class="btn">POLSKI</button></div>
+            <div class="col-sm-1"><button class="btn">SLOVENŠČINA</button></div>
+            <div class="col-sm-1"><button class="btn">简体中文</button></div>
         </div>
         <div class="language row row-cols-3 offset-1 mb-3">
-            <div class="col-sm-1 padding-left-0"><a href="#">繁體中文</a></div>
+            <div class="col-sm-1 padding-left-0"><button class="btn">繁體中文</button></div>
         </div>
         
         <hr class="mt-4 mb-0">
-        <!-- Contents in diversal languages -->
+        <!-- Contents in EN-->
+        <div id="EN" style="display: inherit">
         <h1 class="label-green">ENGLISH</h1>
         <!-- Hardware Installation -->
         <div class="row g-0 offset-1">
@@ -151,6 +152,103 @@
                 </br><span class="label-outline-green">3</span><b>Note:</b> It takes 1 to 2 minutes to apply your wizard changes. The LED turns steady blue if you change the NWA50AX default settings and the WiFi is on. Use the NWA50AX's new wireless settings (SSID and key) to re-connect to the NWA50AX's WiFi network for Internet access if you change them in the wizard (or log in to the web configurator when the NWA50AX is using a WiFi connection). The LED turns steady green when WiFi clients connect to the NWA50AX. <br><b>Note:</b> The 1.1.1.1 (setup.zyxel.com) is for initial setup only. It is not usable after the NWA50AX is configured. <br><b>Note:</b> Check the Dashboard screen and note down the NWA50AX's IP address in case you need to access its web configurator again.</p>
             </div>
         </div>
+        </div>
+
+        <!-- ---------------------------------------------------------------- -->
+        <!-- Contents in DE-->
+                <div id="DE" style="display: none;">
+                    <h1 class="label-green">DEUTSCH</h1>
+                    <!-- Hardware Installation -->
+                    <div class="row g-0 offset-1">
+                        <div class="">
+                            <h2 class="mt-4 mb-4">Hardware Installation</h2>
+                            <img class="img-fluid mx-auto d-block" src="image/png/Image-1.png" alt="Image-1">
+                            <p class="mt-5">Verbinden Sie den UPLINK Port mit einem Router mit Internetzugang. Wenn Sie PoE nicht verwenden, schließen Sie den Netzadapter an eine geeignete Stromquelle an. </p>    
+                        </div>
+                    </div>
+                    <!-- Option A -->
+                    <div class="row g-0 mt-4 offset-1">
+                        <div class="">
+                            <h2 class="border-bottom-black"><span class="label-black">Option A</span>App Installation</h2>
+                            <div class="mt-4 mb-4">
+                                <p>Use Zyxel Nebula Mobile app to add a device in the NCC</p>
+                            </div>
+                            <img class="img-fluid mx-auto d-block" src="image/png/Image-2.png" alt="Image-2">
+                            <img class="img-fluid mx-auto d-block" src="image/png/Image-3.png" alt="Image-3">
+                            <div class="mt-5">
+                                <p>Laden Sie die Zyxel Nebula Mobil-App herunter und öffnen Sie sie. Melden Sie sich mit Ihrem myZyxel-Konto an.
+                                    Erstellen Sie eine Organisation und einen Standort oder wählen Sie einen bestehenden Standort. Scannen Sie den QR-Code des NWA50AX, um ihn zum Standort hinzuzufügen. (Der QR-Code befindet sich im Web-Konfigurator oder auf einem Etikett auf dem Gerät oder seinem Gehäuse.)
+                                    Hinweis: Der NWA50AX wechselt automatisch in den Modus für die Cloud-Verwaltung, nachdem er an einem Standort registriert wurde.
+                                    Descargue y abra la aplicación movil Zyxel Nebula. Inicie sesión con su cuenta de myZyxel. 
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Option B -->
+                    <div class="row g-0 mt-4 offset-1">
+                        <div class="">
+                            <h2 class="border-bottom-black"><span class="label-black">Option B</span>Cloud Web Installation</h2>
+                            <div class="mt-4 mb-4">
+                                <p>Use MAC address and serial number to add a device in the NCC</p>
+                            </div>
+                            <img class="img-fluid" src="image/png/Image-4.png" alt="Image-4">
+                            <div class="mt-5 mb-5">
+                                <p><span class="label-outline-green">1</span>Führen Sie die folgenden Schritte aus, um den NWA50AX über das Cloud-basierte Netzwerkmanagementsystem von Zyxel zu verwalten.
+                                    Hinweis: Stellen Sie sicher, dass der angeschlossene Router über einen Internetzugang verfügt.
+                                    Gehen Sie auf die NCC-Website (Zyxel Nebula Control Center) (https://nebula.zyxel.com). Klicken Sie auf Erste Schritte, um sich für ein myZyxel Konto registrieren und sich anzumelden.</p>
+                            </div>
+                            <img class="img-fluid" src="image/png/Image-5.png" alt="Image-5">
+                            <div class="mt-5">
+                                <p><span class="label-outline-green">2</span>Erstellen Sie eine Organisation und einen Standort (Netzwerk) im NCC.
+                                    <br><span class="label-outline-green">3</span>Geben Sie die LAN MAC-Adresse und die Seriennummer (S/N) des NWA50AX (siehe Etikett auf dem Gerät) im NCC-Konfigurationsbildschirm ein.
+                                    <br><b>Hinweis:</b> Der NWA50AX wechselt automatisch in den Modus für die Cloud-Verwaltung, nachdem er an einem Standort registriert wurde. Weitere Informationen zur Konfiguration des NWA50AX über das NCC finden Sie im NCC-Benutzerhandbuch.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Option C -->
+                    <div class="row g-0 mt-5 offset-1">
+                        <div class="">
+                            <h2 class="border-bottom-black"><span class="label-black">Option C</span>Local Web Installation</h2>
+                            <div class="mt-5 mb-5">
+                                <img class="img-fluid" src="image/png/Image-6.png" alt="Image-6">
+                            </div>
+                            <p>
+                                <span class="label-outline-green">1-a</span> Suchen Sie mit einem WLAN-fähigen Computer nach dem WLAN-Standardnamen des NWA50AX (Zyxel-xxxx, wobei xxxx die letzten vier Zeichen der MAC-Adresse sind), und stellen Sie die Verbindung zu diesem her.
+                                Öffnen Sie Ihren Webbrowser, und geben Sie für die Erstkonfiguration “http://1.1.1.1 (setup.zyxel.com)” ein. Geben Sie den Standardbenutzernamen (admin) und  das Kennwort (1234) ein. Klicken Sie auf Login.
+                                <br><b>Hinweis:</b> Wenn der NWA50AX keine Verbindung zum Internet herstellen kann, verwenden Sie die DHCP-zugewiesene IP-Adresse des NWA50AX, um auf dessen Web-Konfigurator zuzugreifen. Überprüfen Sie den angeschlossenen Router oder DHCP-Server für die IP-Adresse des NWA50AX.
+                            </p>
+                            <div class="mt-5 mb-5">
+                                <img class="img-fluid" src="image/png/Image-7.png" alt="Image-7">
+                            </div>
+                            
+                            <p>
+                                <span class="label-outline-green">1-b</span>Verwenden Sie ein Ethernet-Kabel, um Ihren Computer über einen PoE-Injektor oder einen PoE-Switch mit dem UPLINK Port des NWA50AX zu verbinden.
+                                Verwenden Sie die vom DHCP-Server zugewiesene IP-Adresse oder die statische Standard-IP-Adresse “http://192.168.1.2”, um auf den Web-Konfigurator zuzugreifen. Die IP-Adresse des Computers muss sich im selben Subnetz befinden wie die des NWA50AX.
+                            </p>
+                            <div class="mt-5 mb-5">
+                                <img class="img-fluid" src="image/png/Image-8.png" alt="Image-8">
+                            </div>
+                            <div class="mb-5">
+                                <img class="img-fluid" src="image/png/Image-9.png" alt="Image-9">
+                            </div>
+                            
+                            
+                            <p><span class="label-outline-green">2</span> Der Assistent erscheint automatisch. Richten Sie den NWA50AX mit dem Assistenten ein.
+                                <br><b>Hinweis:</b> Es dauert 1 bis 2 Minuten, bis der Assistent die Änderungen übernimmt. Die LED leuchtet blau, wenn Sie die Standardeinstellungen des NWA50AX ändern und das WiFi eingeschaltet ist.
+                            </br><span class="label-outline-green">3</span>Nachdem Sie die WLAN-Einstellungen desNWA50AX (SSID und dazugehöriger Schlüssel) im Assistenten geändert haben, können Sie mit diesen die Verbindung zum WLAN-Netzwerk des NWA50AX und damit zum Internet herstellen (oder melden Sie sich beim Web-Konfigurator an, wenn der NWA50AX eine WiFi Verbindung verwendet). Die LED leuchtet grün, wenn WiFi Clients eine Verbindung mit dem NWA50AX herstellen.
+                            <br><b>Hinweis:</b> 1.1.1.1 (setup.zyxel.com) kann nur bei der Erstkonfiguration verwendet werden, nicht jedoch, wenn der NWA50AX schon einmal konfiguriert wurde.
+                            <br><b>Hinweis:</b> Rufen Sie das Dashboard-Fenster auf, und notieren Sie sich die IP-Adresse des NWA50AX, falls Sie nochmals auf den Web-Konfigurator zugreifen müssen.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                    <!-- ---------------------------------------------------------------- -->
+
+
+
+
+
+
         <!-- Support information -->
         <h1 class="offset-1 mt-5">Support Information</h1>
         <div class="support-info row g-0 row-cols-2 mt-4 offset-1">
@@ -164,7 +262,7 @@
                 <a href="#">support@zyxel.com</a>
             </div>
         </div>
-        <!-- Support information -->
+
         <div class="border-left-green offset-1 mt-5">
             <h4 class="font-color-green">See the User's Guide at www.zyxel.com for more information, including customer support and safety warnings.</h4>
             <div class="row">
@@ -196,6 +294,8 @@
         
        
     </div>
+
+    <script src="js/all.js"></script>
     
     
 </body>

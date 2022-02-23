@@ -97,3 +97,15 @@ ul{
 .font-color-green{
     color: #61B522;
 }
+
+.btn{
+    color: #140D0C;
+    font-size: 12px;
+    text-decoration: underline;
+    padding: 0;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
