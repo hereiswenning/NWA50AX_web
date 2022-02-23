@@ -1,36 +1,36 @@
 ＠font-face{
     font-family: "Galano-Grotesque-Regular";
-    src: url("font/GalanoGrotesque-Regular.otf");
+    src: url("../font/GalanoGrotesque-Regular.otf");
 }
 ＠font-face{
     font-family: "Galano-Grotesque-SemiBold";
-    src: url("font/GalanoGrotesque-SemiBold.otf");
+    src: url("../font/GalanoGrotesque-SemiBold.otf");
 }
 
 h1{
     font-size: 16px;
-    font-family: 'GalanoGrotesque-SemiBold';
+    font-family: 'Galano-Grotesque-SemiBold';
 }
 h2{
     font-size: 14px;
-    font-family: 'GalanoGrotesque-SemiBold';
+    font-family: 'Galano-Grotesque-SemiBold';
 }
 h3{
     font-size: 14px;
-    font-family: 'GalanoGrotesque-Regular';
+    font-family: 'Galano-Grotesque-Regular';
 }
 h4{
     font-size: 10px;
-    font-family: 'GalanoGrotesque-Regular';
+    font-family: 'Galano-Grotesque-Regular';
 }
 
 h5{
     font-size: 9px;
-    font-family: 'GalanoGrotesque-SemiBold';
+    font-family: 'Galano-Grotesque-SemiBold';
 }
 
 body{
-    font-family: 'GalanoGrotesque-Regular';
+    font-family: 'Galano-Grotesque-Regular';
 }
 
 a{
@@ -44,7 +44,7 @@ p{
 
 .body{
     font-size: 8px;
-    font-family: 'GalanoGrotesque-Regular';
+    font-family: 'Galano-Grotesque-Regular';
 }
 
 .padding-left-0{
@@ -108,4 +108,4 @@ ul{
 .btn:focus {
     outline: none;
     box-shadow: none;
-  }
+}
