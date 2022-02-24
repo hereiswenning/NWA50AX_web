@@ -55,7 +55,11 @@ ul{
     list-style-type: none;
 }
 
-.language{
+li > a{
+    font-size: 8px;
+}
+
+.language-list{
     font-size: 14px;
 }
 
@@ -113,4 +117,21 @@ ul{
 .btn:focus {
     outline: none;
     box-shadow: none;
+}
+
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* .row{
+    margin-right: ;
+} */
+
+.image-small{
+    width: 65%;
+}
+
+.language > .row{
+    margin-left: 0;
 }
