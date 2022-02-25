@@ -40,6 +40,7 @@ a{
 
 p{
     font-size: 14px;
+    margin-bottom: 0;
 }
 
 .body{
@@ -97,6 +98,10 @@ li > a{
 }
 .support-info{
     height: 163px;
+}
+
+.bolder{
+    font-family: 'GalanoGrotesque-SemiBold';
 }
 
 .font-color-green{
