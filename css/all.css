@@ -122,6 +122,8 @@ li > a{
 .btn:focus {
     outline: none;
     box-shadow: none;
+    color: #61B522;
+    font-family: 'GalanoGrotesque-SemiBold';
 }
 
 .container{
@@ -140,3 +142,4 @@ li > a{
 .language > .row{
     margin-left: 0;
 }
+
