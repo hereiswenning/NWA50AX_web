@@ -131,10 +131,6 @@ li > a{
     padding-right: 10%;
 }
 
-/* .row{
-    margin-right: ;
-} */
-
 .image-small{
     width: 65%;
 }
@@ -143,3 +139,6 @@ li > a{
     margin-left: 0;
 }
 
+b{
+    font-family: 'GalanoGrotesque-SemiBold';
+}

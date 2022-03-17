@@ -23,7 +23,7 @@
         </div>
 
         <!-- Video section -->
-        <div class="row g-0  ">
+        <div class="row g-0">
             <h1 class="col-xl-12 mb-4">Quick Start Guide</h1>
             <h2 class="col-xl-12 mt-5 mb-2">Video tutorial</h2>
             <ul class="list-unstyled">
@@ -52,9 +52,9 @@
         <!-- Language selection -->
         <div class="language">
             <h2 class="col-xl-12 mt-3 mb-4">Language</h2>
-            <div class="language-list row row-cols-3   mb-3">
-                <div class="col-sm-1 padding-left-0"><button id="switchlanguageEN" class="btn">ENGLISH</button></div>
-                <div class="col-sm-1"><button id="switchlanguage" class="btn">DEUTSCH</button></div>
+            <div class="language-list row row-cols-3 mb-3">
+                <div class="col-sm-1 padding-left-0"><button class="btn">ENGLISH</button></div>
+                <div class="col-sm-1"><button class="btn">DEUTSCH</button></div>
                 <div class="col-sm-1"><button class="btn">ESPAÑOL</button></div>
             </div>
             <div class="language-list row row-cols-3 mb-3">
@@ -86,7 +86,7 @@
     <!-- Contents in EN-->
     <hr class="mt-4 mb-0">
     <div id="EN" style="display: inherit">
-        <h1 class="label-green">ENGLISH</h1>
+        <h1 class="label-green" i18n>ENGLISH</h1>
 
         <div class="container">
             <!-- Hardware Installation -->
@@ -94,21 +94,21 @@
                 <div class="">
                     <!-- <h2 class="mt-4 mb-4">Hardware Installation</h2> -->
                     <img class="img-fluid mx-auto d-block mt-4" src="image/png/Image-1.png" alt="Image-1">
-                    <p class="mt-5">Connect the UPLINK port to a router with Internet access. If you are not using PoE, connect the NWA50AX power socket to an appropriate power source.</p>    
+                    <p class="mt-5" i18n>Connect the UPLINK port to a router with Internet access. If you are not using PoE, connect the NWA50AX power socket to an appropriate power source.</p>    
                 </div>
             </div>
             <!-- Option A -->
             <div class="row g-0 mt-4  ">
                 <div class="">
-                    <h2 class="border-bottom-black"><span class="label-black">Option A</span>App Installation</h2>
+                    <h2 class="border-bottom-black"><span class="label-black">Option A</span><span>App Installation</span></h2>
                     <div class="mt-4 mb-4">
-                        <p>Use Zyxel Nebula Mobile app to add a device in the NCC</p>
+                        <p i18n>Use Zyxel Nebula Mobile app to add a device in the NCC</p>
                     </div>
                     <img class="img-fluid mx-auto d-block mb-3 image-small" src="image/png/Image-2.png" alt="Image-2">
                     <img class="img-fluid mx-auto d-block" src="image/png/Image-3.png" alt="Image-3">
                     <div class="mt-5">
-                        <p>Download and open the Zyxel <span class="bolder">Nebula Mobile</span> app. Log in with your myZyxel account. Create an organization and site or select an existing site. Scan the NWA50AX's QR code to add it to the site. (You can find the QR code in its web configurator or on a label on the device or its box.) </p>
-                        <p><span class="bolder">Note:</span> The NWA50AX will go into cloud management mode automatically after it is registered to a site.</p>
+                        <p i18n>Download and open the Zyxel Nebula Mobile app. Log in with your myZyxel account. Create an organization and site or select an existing site. Scan the NWA50AX's QR code to add it to the site. (You can find the QR code in its web configurator or on a label on the device or its box.) </p>
+                        <p i18n>Note: The NWA50AX will go into cloud management mode automatically after it is registered to a site.</p>
                     </div>
                 </div>
             </div>
@@ -117,15 +117,15 @@
                 <div class="">
                     <h2 class="border-bottom-black"><span class="label-black">Option B</span>Cloud Web Installation</h2>
                     <div class="mt-4 mb-4">
-                        <p>Use MAC address and serial number to add a device in the NCC</p>
+                        <p i18n>Use MAC address and serial number to add a device in the NCC</p>
                     </div>
                     <img class="img-fluid" src="image/png/Image-4.png" alt="Image-4">
                     <div class="mt-5 mb-5">
-                        <p>Follow the steps below to manage the NWA50AX through the Zyxel cloud-based network management system. Note: Make sure the connected router has Internet access. Go to the Zyxel Nebula Control Center (NCC) website (https://nebula.zyxel.com). Click Get Started to sign up for a myZyxel account and log in.</p>
+                        <p i18n>Follow the steps below to manage the NWA50AX through the Zyxel cloud-based network management system. Note: Make sure the connected router has Internet access. Go to the Zyxel Nebula Control Center (NCC) website (https://nebula.zyxel.com). Click Get Started to sign up for a myZyxel account and log in.</p>
                     </div>
                     <img class="img-fluid" src="image/png/Image-5.png" alt="Image-5">
                     <div class="mt-5">
-                        <p>Create an organization and a site (network) in the NCC. Enter the NWA50AX's LAN MAC address and serial number (S/N) (see the label on the device) in the NCC configuration screen. Note: The NWA50AX will go into cloud management mode automatically after it is registered to a site. See the NCC User's Guide for more information about configuring the NWA50AX through the NCC.</p>
+                        <p i18n>Create an organization and a site (network) in the NCC. Enter the NWA50AX's LAN MAC address and serial number (S/N) (see the label on the device) in the NCC configuration screen. Note: The NWA50AX will go into cloud management mode automatically after it is registered to a site. See the NCC User's Guide for more information about configuring the NWA50AX through the NCC.</p>
                     </div>
                 </div>
             </div>
@@ -138,7 +138,7 @@
                     </div>
                     <p>
                         <span class="label-outline-green">1-a</span>
-                        From a WiFi enabled computer, search for the NWA50AX's default WiFi network name (<span class="bolder">Zyxel-xxxx</span>, where xxxx is the last four characters of the MAC address) and connect to it. Open your web browser and enter "http://1.1.1.1 (setup.zyxel.com)" for initial configuration. Enter the default user name (<span class="bolder">admin</span>) and password (<span class="bolder">1234</span>). Click <span class="bolder">Login</span>.</br><span class="bolder">Note:</span> If the NWA50AX cannot connect to the Internet, use the DHCP-assigned IP address of the NWA50AX to access its web configurator. Check the connected router or DHCP server for the IP address of the NWA50AX.
+                        <span i18n> a WiFi enabled computer, search for the NWA50AX's default WiFi network name (Zyxel-xxxx, where xxxx is the last four characters of the MAC address) and connect to it. Open your web browser and enter "http://1.1.1.1 (setup.zyxel.com)" for initial configuration. Enter the default user name (admin) and password (1234). Click Login. Note: If the NWA50AX cannot connect to the Internet, use the DHCP-assigned IP address of the NWA50AX to access its web configurator. Check the connected router or DHCP server for the IP address of the NWA50AX.</span>
                     </p>
                     <div class="mt-5 mb-5">
                         <img class="img-fluid" src="image/png/Image-7.png" alt="Image-7">
@@ -146,7 +146,7 @@
                     
                     <p>
                         <span class="label-outline-green">1-b</span>
-                        Use an Ethernet cable to connect your computer to the UPLINK port of the NWA50AX through a PoE injector or PoE switch. Use its DHCP-assigned IP or default static IP address "http://192.168.1.2" to access the web configurator. Make sure your computer IP address is in the same subnet as the NWA50AX's.
+                        <span i18n> Use an Ethernet cable to connect your computer to the UPLINK port of the NWA50AX through a PoE injector or PoE switch. Use its DHCP-assigned IP or default static IP address "http://192.168.1.2" to access the web configurator. Make sure your computer IP address is in the same subnet as the NWA50AX's.</span>
                     </p>
                     <div class="mt-5 mb-5">
                         <img class="img-fluid" src="image/png/Image-8.png" alt="Image-8">
@@ -157,30 +157,30 @@
                     
                     <p>
                         <span class="label-outline-green">2</span>
-                        The wizard appears automatically. Use the wizard to set up your NWA50AX. </p>
+                        <span i18n>The wizard appears automatically. Use the wizard to set up your NWA50AX. </span></p>
                     <p>
                         <span class="label-outline-green">3</span>
-                        <span class="bolder">Note:</span> It takes 1 to 2 minutes to apply your wizard changes. The LED turns steady blue if you change the NWA50AX default settings and the WiFi is on. Use the NWA50AX's new wireless settings (SSID and key) to re-connect to the NWA50AX's WiFi network for Internet access if you change them in the wizard (or log in to the web configurator when the NWA50AX is using a WiFi connection). The LED turns steady green when WiFi clients connect to the NWA50AX.</p>
+                        <b i18n>Note:</b><span i18n> It takes 1 to 2 minutes to apply your wizard changes. The LED turns steady blue if you change the NWA50AX default settings and the WiFi is on. Use the NWA50AX's new wireless settings (SSID and key) to re-connect to the NWA50AX's WiFi network for Internet access if you change them in the wizard (or log in to the web configurator when the NWA50AX is using a WiFi connection). The LED turns steady green when WiFi clients connect to the NWA50AX.</span></p>
                     <p>
-                        <span class="bolder">Note:</span>
-                        The 1.1.1.1 (setup.zyxel.com) is for initial setup only. It is not usable after the NWA50AX is configured. </p>
+                        <b i18n>Note:</b>
+                        <span i18n> The 1.1.1.1 (setup.zyxel.com) is for initial setup only. It is not usable after the NWA50AX is configured. </span></p>
                     <p>
-                        <span class="bolder">Note:</span> Check the Dashboard screen and note down the NWA50AX's IP address in case you need to access its web configurator again.</p>
+                        <b i18n>Note:</b><span i18n> Check the Dashboard screen and note down the NWA50AX's IP address in case you need to access its web configurator again.</span></p>
                 </div>
             </div>
             <!-- Mounting tool -->
             <div class="row mt-5">
-                <h1 class="">Wall / Ceiling Mounting</h1>
+                <h1 class="" i18n>Wall / Ceiling Mounting</h1>
                 <div class="mb-5 mt-5">
                     <img class="img-fluid" src="image/png/Image-10.png" alt="Image-10">
                 </div>
                 <p class="mb-1">
                     <span class="label-outline-green">1-a</span>
-                    <span class="bolder">Wall mounting</span>: Drill two holes for the screw anchors (A), 62.4 mm apart. Insert the screw anchors into the wall.
+                    <b i18n>Wall mounting</b>: <span i18n>Drill two holes for the screw anchors (A), 62.4 mm apart. Insert the screw anchors into the wall.</span>
                 <p>
                 <p class="mb-1">
-                    <span class="label-outline-green">1-b</span>
-                    <span class="bolder">Ceiling mounting</span>: Drill two holes for the screw anchors (A), 62.4 mm or 70.1 mm apart. Insert the screw anchors into the ceiling.
+                    <span class="label-outline-green" i18n>1-b</span>
+                    <b i18n>Ceiling mounting</b>: <span i18n> Drill two holes for the screw anchors (A), 62.4 mm or 70.1 mm apart. Insert the screw anchors into the ceiling.</span>
                 <p>
                 <div class="mb-5 mt-5">
                     <img class="img-fluid" src="image/png/Image-11.png" alt="Image-11">
@@ -188,202 +188,53 @@
                 <!-- -- -->
                 <p class="mb-1">
                     <span class="label-outline-green">2</span>
-                    Install two mounting screws through the holes on the bracket (B) into the plugs/anchors to secure the bracket to the wall/ceiling. Make sure the screws are snugly and securely fastened to the wall/ceiling.
+                    <span i18n>Install two mounting screws through the holes on the bracket (B) into the plugs/anchors to secure the bracket to the wall/ceiling. Make sure the screws are snugly and securely fastened to the wall/ceiling.</span>
                 <p>
                 <p>
                     <span class="label-outline-green">3</span>
-                    After the bracket is attached to the wall/ceiling, slide the NWA90AX onto the bracket until it clicks into place.
+                    <span i18n>After the bracket is attached to the wall/ceiling, slide the NWA90AX onto the bracket until it clicks into place.</span>
                 <p>
                 
-                <h1 class="mt-5">T-bar Ceiling Mounting</h1>
+                <h1 class="mt-5" i18n>T-bar Ceiling Mounting</h1>
                 <div class="mb-5 mt-5">
                     <img class="img-fluid" src="image/png/Image-12.png" alt="Image-12">
                 </div>
                 <p class="mb-1">
                     <span class="label-outline-green">1</span>
-                    Attach two clips to the ceiling grids as shown.
+                    <span i18n>Attach two clips to the ceiling grids as shown.</span>
                 <p>
                 <p class="mb-1">
                     <span class="label-outline-green">2</span>
-                    Install two screws to secure the bracket to the clips.
+                    <span i18n>Install two screws to secure the bracket to the clips.</span>
                 <p>
                 <p>
                     <span class="label-outline-green">3</span>
-                    Slide the NWA90AX onto the bracket until it clicks into the place.
+                    <span i18n>Slide the NWA90AX onto the bracket until it clicks into the place.</span>
                 <p>
                 <p>
-                    <span class="bolder">Note</span>: Clips (ACCESSORY-ZZ0105F) are sold separately.
+                    <b i18n>Note</b>: <span i18n>Clips (ACCESSORY-ZZ0105F) are sold separately.</span>
                 <p>
                 <div class="mb-5 mt-5">
                     <img class="img-fluid" src="image/png/Image-13.png" alt="Image-13">
                 </div>
-                <h1 class="mt-5">Desk Mounting</h1>
+                <h1 class="mt-5" i18n>Desk Mounting</h1>
                 <p class="mb-1">
                     <span class="label-outline-green">1</span>
-                    Remove the adhesive backing from the rubber pad.
+                    <span i18n>Remove the adhesive backing from the rubber pad.</span>
                 <p>
                 <p class="mb-1">
                     <span class="label-outline-green">2</span>
-                    Align and attach the rubber pad to the gray square to stabilize the NWA90AX.
+                    <span i18n>Align and attach the rubber pad to the gray square to stabilize the NWA90AX.</span>
                 <p>
                 <p>
                     <span class="label-outline-green">3</span>
-                    Place the NWA90AX on the desk.
+                    <span i18n>Place the NWA90AX on the desk.</span>
                 <p>
             </div>
         </div>
     </div>
     <!-- ---------------------------------------------------------------- -->
-    <!-- Contents in DE-->
-    <div id="DE" style="display: none;">
-        <h1 class="label-green">DEUTSCH</h1>
-        <div class="container">
-            <!-- Hardware Installation -->
-            <div class="row g-0">
-                <div class="">
-                    <!-- <h2 class="mt-4 mb-4">Hardware Installation</h2> -->
-                    <img class="img-fluid mx-auto d-block mt-4" src="image/png/Image-1.png" alt="Image-1">
-                    <p class="mt-5">Verbinden Sie den UPLINK Port mit einem Router mit Internetzugang. Wenn Sie PoE nicht verwenden, schließen Sie den Netzadapter an eine geeignete Stromquelle an. </p>    
-                </div>
-            </div>
-            <!-- Option A -->
-            <div class="row g-0 mt-4  ">
-                <div class="">
-                    <h2 class="border-bottom-black"><span class="label-black">Option A</span>App Installation</h2>
-                    <div class="mt-4 mb-4">
-                        <p>Use Zyxel Nebula Mobile app to add a device in the NCC</p>
-                    </div>
-                    <img class="img-fluid mx-auto d-block mb-3 image-small" src="image/png/Image-2.png" alt="Image-2">
-                    <img class="img-fluid mx-auto d-block" src="image/png/Image-3.png" alt="Image-3">
-                    <div class="mt-5">
-                        <p>Laden Sie die Zyxel <span class="bolder">Nebula Mobil-App</span> herunter und öffnen Sie sie. Melden Sie sich mit Ihrem myZyxel-Konto an.
-                            Erstellen Sie eine Organisation und einen Standort oder wählen Sie einen bestehenden Standort. Scannen Sie den QR-Code des NWA50AX, um ihn zum Standort hinzuzufügen. (Der QR-Code befindet sich im Web-Konfigurator oder auf einem Etikett auf dem Gerät oder seinem Gehäuse.)
-                            Hinweis: Der NWA50AX wechselt automatisch in den Modus für die Cloud-Verwaltung, nachdem er an einem Standort registriert wurde.
-                            Descargue y abra la aplicación movil Zyxel Nebula. Inicie sesión con su cuenta de myZyxel. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Option B -->
-            <div class="row g-0 mt-4  ">
-                <div class="">
-                    <h2 class="border-bottom-black"><span class="label-black">Option B</span>Cloud Web Installation</h2>
-                    <div class="mt-4 mb-4">
-                        <p>Use<span class="bolder">MAC address</span> and <span class="bolder">serial number</span> to add a device in the NCC</p>
-                    </div>
-                    <img class="img-fluid" src="image/png/Image-4.png" alt="Image-4">
-                    <div class="mt-5 mb-5">
-                        <p><span class="label-outline-green">1</span>Führen Sie die folgenden Schritte aus, um den NWA50AX über das Cloud-basierte Netzwerkmanagementsystem von Zyxel zu verwalten.
-                            Hinweis: Stellen Sie sicher, dass der angeschlossene Router über einen Internetzugang verfügt.
-                            Gehen Sie auf die NCC-Website (Zyxel Nebula Control Center) <span class="bolder">(https://nebula.zyxel.com)</span>. Klicken Sie auf <span class="bolder">Erste Schritte</span>, um sich für ein myZyxel Konto registrieren und sich anzumelden.</p>
-                    </div>
-                    <img class="img-fluid" src="image/png/Image-5.png" alt="Image-5">
-                    <div class="mt-5">
-                        <p><span class="label-outline-green">2</span>Erstellen Sie eine Organisation und einen Standort (Netzwerk) im NCC.
-                            <br><span class="label-outline-green">3</span>Geben Sie die LAN MAC-Adresse und die Seriennummer (S/N) des NWA50AX (siehe Etikett auf dem Gerät) im NCC-Konfigurationsbildschirm ein.
-                            <br><span class="bolder">Hinweis:</span> Der NWA50AX wechselt automatisch in den Modus für die Cloud-Verwaltung, nachdem er an einem Standort registriert wurde. Weitere Informationen zur Konfiguration des NWA50AX über das NCC finden Sie im NCC-Benutzerhandbuch.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Option C -->
-            <div class="row g-0 mt-5  ">
-                <div class="">
-                    <h2 class="border-bottom-black"><span class="label-black">Option C</span>Local Web Installation</h2>
-                    <div class="mt-5 mb-5">
-                        <img class="img-fluid" src="image/png/Image-6.png" alt="Image-6">
-                    </div>
-                    <p>
-                        <span class="label-outline-green">1-a</span> Suchen Sie mit einem WLAN-fähigen Computer nach dem WLAN-Standardnamen des NWA50AX (<span class="bolder">Zyxel-xxxx</span>, wobei xxxx die letzten vier Zeichen der MAC-Adresse sind), und stellen Sie die Verbindung zu diesem her.
-                            Öffnen Sie Ihren Webbrowser, und geben Sie für die Erstkonfiguration “http://1.1.1.1 (setup.zyxel.com)” ein. Geben Sie den Standardbenutzernamen (<span class="bolder">admin</span>) und  das Kennwort (<span class="bolder">1234</span>) ein. Klicken Sie auf Login.
-                            <br> <span class="bolder">Hinweis:</span> Wenn der NWA50AX keine Verbindung zum Internet herstellen kann, verwenden Sie die DHCP-zugewiesene IP-Adresse des NWA50AX, um auf dessen Web-Konfigurator zuzugreifen. Überprüfen Sie den angeschlossenen Router oder DHCP-Server für die IP-Adresse des NWA50AX.
-                    </p>
-                    <div class="mt-5 mb-5">
-                        <img class="img-fluid" src="image/png/Image-7.png" alt="Image-7">
-                    </div> 
-                    <p>
-                        <span class="label-outline-green">1-b</span>Verwenden Sie ein Ethernet-Kabel, um Ihren Computer über einen PoE-Injektor oder einen PoE-Switch mit dem <span class="bolder">UPLINK</span> Port des NWA50AX zu verbinden.
-                        Verwenden Sie die vom DHCP-Server zugewiesene IP-Adresse oder die statische Standard-IP-Adresse “http://192.168.1.2”, um auf den Web-Konfigurator zuzugreifen. Die IP-Adresse des Computers muss sich im selben Subnetz befinden wie die des NWA50AX.
-                    </p>
-                    <div class="mt-5 mb-5">
-                        <img class="img-fluid" src="image/png/Image-8.png" alt="Image-8">
-                    </div>
-                    <div class="mb-5">
-                        <img class="img-fluid" src="image/png/Image-9.png" alt="Image-9">
-                    </div>
-                    <p><span class="label-outline-green">2</span> Der Assistent erscheint automatisch. Richten Sie den NWA50AX mit dem Assistenten ein.
-                        <br> <span class="bolder">Hinweis:</span> Es dauert 1 bis 2 Minuten, bis der Assistent die Änderungen übernimmt. Die LED leuchtet blau, wenn Sie die Standardeinstellungen des NWA50AX ändern und das WiFi eingeschaltet ist.
-                        </br><span class="label-outline-green">3</span>Nachdem Sie die WLAN-Einstellungen desNWA50AX (SSID und dazugehöriger Schlüssel) im Assistenten geändert haben, können Sie mit diesen die Verbindung zum WLAN-Netzwerk des NWA50AX und damit zum Internet herstellen (oder melden Sie sich beim Web-Konfigurator an, wenn der NWA50AX eine WiFi Verbindung verwendet). Die LED leuchtet grün, wenn WiFi Clients eine Verbindung mit dem NWA50AX herstellen.
-                        <br> <span class="bolder">Hinweis:</span> 1.1.1.1 (setup.zyxel.com) kann nur bei der Erstkonfiguration verwendet werden, nicht jedoch, wenn der NWA50AX schon einmal konfiguriert wurde.
-                        <br> <span class="bolder">Hinweis:</span> Rufen Sie das Dashboard-Fenster auf, und notieren Sie sich die IP-Adresse des NWA50AX, falls Sie nochmals auf den Web-Konfigurator zugreifen müssen.
-                    </p>
-                </div>
-            </div>
-            <!-- Mounting tool -->
-            <div class="row mt-5">
-                <h1 class="">Wall / Ceiling Mounting</h1>
-                <div class="mb-5 mt-5">
-                    <img class="img-fluid" src="image/png/Image-10.png" alt="Image-10">
-                </div>
-                <p class="mb-1">
-                    <span class="label-outline-green">1-a</span>
-                    <span class="bolder">Wandmontage</span>: Bohren Sie die zwei Löcher für die Schraubdübel (A) in einem Abstand von 62,4 mm. Bringen Sie die Schraubdübel an der Wand an.
-                <p>
-                <p>
-                    <span class="label-outline-green">1-b</span>
-                    <span class="bolder">Deckenmontage</span>: Bohren Sie die zwei Löcher für die Schraubdübel (A) in einem Abstand von 62,4 mm oder 70,1 mm. Bringen Sie die Schraubdübel an der Decke an.
-                <p>
-                <div class="mb-5 mt-5">
-                    <img class="img-fluid" src="image/png/Image-11.png" alt="Image-11">
-                </div>
-                <!-- -- -->
-                <p class="mb-1">
-                    <span class="label-outline-green">2</span>
-                    Bringen Sie zwei Montageschrauben durch die Öffnungen der Halterung (B) in die Dübel an, um die Halterung an der Wand/Decke zu befestigen. Stellen Sie sicher, dass die Schrauben fest in der Wand/Decke befestigt sind.
-                <p>
-                <p>
-                    <span class="label-outline-green">3</span>
-                    Nachdem die Halterung an der Wand/Decke befestigt ist, schieben Sie den NWA90AX auf die Halterung, bis er einrastet.
-                
-                <h1 class="mt-5">T-bar Ceiling Mounting</h1>
-                <div class="mb-5 mt-5">
-                    <img class="img-fluid" src="image/png/Image-12.png" alt="Image-12">
-                </div>
-                <p class="mb-1">
-                    <span class="label-outline-green">1</span>
-                    Befestigen Sie zwei Clips wie abgebildet an den Deckenrastern.
-                <p>
-                <p class="mb-1">
-                    <span class="label-outline-green">2</span>
-                    Befestigen Sie die Halterung mit zwei Schrauben an den Clips.
-                <p>
-                <p>
-                    <span class="label-outline-green">3</span>
-                    Schieben Sie den NWA90AX auf die Halterung, bis er einrastet.
-                <p>
-                <p>
-                    <span class="bolder">Hinweis</span>: Clips (ZUBEHÖR-ZZ0105F) sind separat erhältlich.
-                <p>
-                <div class="mb-5 mt-5">
-                    <img class="img-fluid" src="image/png/Image-13.png" alt="Image-13">
-                </div>
-                <h1 class="mt-5">Desk Mounting</h1>
-                <p class="mb-1">
-                    <span class="label-outline-green">1</span>
-                    Entfernen Sie die Klebeschicht vom Gummipolster.
-                <p>
-                <p class="mb-1">
-                    <span class="label-outline-green">2</span>
-                    Richten Sie das Gummipolster aus und befestigen Sie es an dem grauen Quadrat, um den NWA90AX zu stabilisieren.
-                <p>
-                <p>
-                    <span class="label-outline-green">3</span>
-                    Stellen Sie den NWA90AX auf den Schreibtisch.
-                <p>
-            </div>
-        </div>
-    </div>
-        <!-- ---------------------------------------------------------------- -->
-        <!-- Support information -->
+    <!-- Support information -->
     <div class="container">
         <h1 class="mt-5">Support Information</h1>
         <div class="support-info row g-0 row-cols-2 mt-4  ">
